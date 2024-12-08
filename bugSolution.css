@@ -1,0 +1,10 @@
+The solution involves rearranging the CSS rules to ensure the intended styles are applied correctly. By placing the more specific selector first, the intended styling is prioritized, resolving the unexpected override. 
+
+```css
+.container p {
+  color: blue; /* This style is now correctly applied */
+}
+p {
+  color: red; /* This style is now overridden as intended */
+}
+```
